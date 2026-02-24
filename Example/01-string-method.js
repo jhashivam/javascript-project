@@ -28,6 +28,10 @@ console.log(str1.indexOf("Java")); // -1 (not found)
 
 // 5. slice() - extract part of string
 console.log(str.slice(0, 5)); // Hello
+console.log(str.slice(6)); // World
+console.log(str1.slice(0, 6)); // String
+console.log(str1.slice(7, 14)); // Methods  
+
 
 // 6. substring() - similar to slice
 console.log(str.substring(6)); // World
